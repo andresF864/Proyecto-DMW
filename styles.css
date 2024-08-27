@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: rgb(111, 44, 44);
+  background-color: #0477BF;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav {
   padding: 0.5rem;
   gap: 0.5rem;
   border-bottom: solid 1px #ffffff;
-  background-color:   rgb(111, 44, 44);
+  background-color:   #0A89A6;
 }
 
 nav a {
@@ -33,7 +33,7 @@ nav a {
 
 nav a[aria-current='page'] {
   color: #000;
-  background-color: rgb(174, 44, 44);
+  background-color: #F2F2F2;
 }
 
 main {
@@ -48,7 +48,7 @@ main {
   padding: 20px;
   max-width: 600px;
   margin: auto;
-  background-color: rgb(198, 97, 97); 
+  background-color: #F2CC0C; 
 }
 
 .container2 {
@@ -56,13 +56,13 @@ main {
   padding: 20px;
   max-width: 600px;
   margin: auto;
-  background-color: rgb(198, 97, 97); 
+  background-color: #0477BF; 
 }
 
 .title {
   margin-bottom: 20px;
   text-align: center;
-  background-color: rgb(174, 44, 44); 
+  background-color: #0477BF; 
   padding: 10px;
   color: white;
 }
@@ -108,3 +108,15 @@ main {
   display: flex;
   padding: 20px;
 }
+
+.lista {
+  list-style-position: inside; /* Hace que los puntos estén dentro del cuadro de lista */
+  padding-left: 0; /* Elimina el padding por defecto de la izquierda */
+  margin-left: 0;  /* Elimina el margen por defecto de la izquierda */
+}
+
+.lista {
+  text-align: left; /* Asegura que el texto esté alineado a la izquierda */
+}
+
+
